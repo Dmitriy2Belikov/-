@@ -19,7 +19,10 @@ namespace Euler_Quest
                 var test = true;
                 for (int i = 0; i < numList.Count; i++)
                     if (number % numList[i] == 0)
+                    {
                         test = false;
+                        break;
+                    }
 
                 if (test && number != 1)
                 {
