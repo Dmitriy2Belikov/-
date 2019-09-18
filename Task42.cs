@@ -34,8 +34,6 @@ namespace Euler_Quest
 
                 while(GetTriangleNum(i) <= GetWordNum(element))
                 {
-                    var trNum = GetTriangleNum(i);
-                    var wrNum = GetWordNum(element);
                     if (GetTriangleNum(i) == GetWordNum(element))
                     {
                         counter++;
